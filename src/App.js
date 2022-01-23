@@ -1,19 +1,13 @@
-import './App.css';
-import Posts from "./Component/Posts/Posts";
-import Comments from "./Component/Comments/Comments";
-import Users from "./Component/Users/Users";
+import React from 'react';
 
-function App() {
+import Users from "./component/Users/Users";
+import './App.css'
+const App = () => {
     return (
         <div>
-            <div className={'comPost'}>
-                <Users/>
-                <Posts/>
-            </div>
-            <Comments/>
-
+            <Users/>
         </div>
     );
-}
+};
 
 export default App;

@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
-.comPost{
+.users{
     display: flex;
+    margin: 5px;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-around;
 }
 
-.Items{
-    border: 1px solid black;
-    margin: 5px;
-    padding: 10px;
+.disFlex{
+    display: flex;
+
 }
+
+.item {
+    width: 100%;
+}
+
